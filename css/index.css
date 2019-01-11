@@ -293,9 +293,16 @@ margin: 20px;
     margin: 20px;
 }
 
+.about-content-box a:link {
+    color: black;
+}
+
+.about-content-box a:visited {
+    color: blue;
+}
+
 /*** About Bottom Section ****/
 
 .about-bottom-text {
 margin: 20px;
 }
-
