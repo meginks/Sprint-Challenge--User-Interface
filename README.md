@@ -39,6 +39,9 @@ The word "semantic" means "has meaning," so you can infer from that what "semant
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+Difference 1: display: block starts on a new line and display: inline starts on the same line 
+
+Difference 2: display: block takes up the entire width of the container and display: inline ignores height and needs a width set or it won't show up.
 
 
 3. What are the 4 areas of the box model?
