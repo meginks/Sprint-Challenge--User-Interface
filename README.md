@@ -43,9 +43,16 @@ The word "semantic" means "has meaning," so you can infer from that what "semant
 
 3. What are the 4 areas of the box model?
 
+The four areas of the box model are content, padding, border and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-5. Explain why git is valuable to a team of developers.
+This would align on the cross-axis.
+
+
+5. Explain why git is valuable to a team of developers. 
+
+Git is valuable for a team of developers because it allows multiple people to work on the same file at the same time without getting in each other's way or messing each other up. It provides a back-up system, so to speak, for the files as well. If you mess something up that breaks your code, you can go back to a previous iteration using git and start from where it was still working again. It also allows you to look at all the changes multiple people have made to a file or code base and decide which ones should be implemented and which ones shouldn't be. It also allows you to create branches which make it safer to work on code, so one person on a team can't destroy the whole codebase by messing around with it. Basically, it provides version control, which is important because having up-to-date code is important.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
