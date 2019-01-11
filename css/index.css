@@ -70,16 +70,44 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 
 /** header **/
 header {
-
+display: flex;
+align-items: space-evenly;
+justify-content: center;
+height: auto;
+}
+.header-img {
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+header img {
+    height: 50px;
+    width: auto;
 }
 header nav {
-
+display: flex;
+width: 60%;
+padding: 20px 0;
+margin: 0 auto;
+font-size: 18px;
+align-items: space-evenly;
+justify-content: flex-end;
 } 
+
+header nav a {
+    text-decoration: none;
+    padding: 2%;
+    font-color: black;
+}
+
 
 /** footer **/
 
