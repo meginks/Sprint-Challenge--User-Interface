@@ -34,7 +34,12 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is basically HTML with descriptive tags that help developers and anyone or anything else reading your code (like a browser or a screenreader) to know what kind of thing is inside each element. For example, "div" is non-descriptive and doesn't tell us what kind of thing will be inside of it, but "section" tells us that we should expect a section of content on the site. 
+The word "semantic" means "has meaning," so you can infer from that what "semantic HTML" means -- "html with meaning".
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+
 
 3. What are the 4 areas of the box model?
 
