@@ -115,7 +115,7 @@ footer nav a {
 } 
 
 .top-image {
-    /** add background image size of div here **/
+    /** add jumbo.png size of div here **/
 }
 
 .top-content .text-container {
@@ -216,7 +216,9 @@ footer nav a {
 }
 
 /*** About Top Section ****/
-
+.about-top-image {
+    /** add jumbo-about.png as background image size of div here **/
+}
 .about-top-section {
 
 }
