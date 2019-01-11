@@ -283,12 +283,14 @@ margin: 20px;
     margin: 0 10px;
 }
 
-.about-content-box button {
+.about-content-box a {
     background-color: white;
     border: 1px solid black;
-    width: 30%;
+    text-decoration: none;
+    padding: 10px;
+    font-color: black;
+    width: fit-content;
     margin: 20px;
-    padding: 20px;
 }
 
 /*** About Bottom Section ****/
