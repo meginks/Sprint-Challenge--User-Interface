@@ -248,15 +248,17 @@ height: auto;
     width: 100%;
 }
 .about-top-image {
-    padding: 20px 0;
+    width: 100%;
 }
 .about-top-section {
     padding: 20px;
+    border-bottom: 1px solid black;
 }
 
 .about-top-text {
     padding: 0 20px;
 }
+
 
 /*** About Middle Section ****/
 .about-middle-section {
@@ -271,6 +273,7 @@ flex-direction: column;
 width: 40%;
 align-items: space-evenly;
 margin: 20px;
+border-bottom: 1px dotted black;
 }
 
 .about-content-box img {
