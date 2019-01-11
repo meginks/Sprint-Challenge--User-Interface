@@ -248,21 +248,47 @@ height: auto;
     width: 100%;
 }
 .about-top-image {
+    padding: 20px 0;
 }
 .about-top-section {
-
+    padding: 20px;
 }
 
 .about-top-text {
-
+    padding: 0 20px;
 }
 
 /*** About Middle Section ****/
 .about-middle-section {
-
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
 }
 .about-content-box {
+display: flex;
+flex-direction: column;
+width: 40%;
+align-items: space-evenly;
+margin: 20px;
+}
 
+.about-content-box img {
+    height: 200px;
+    width: auto;
+    margin: 20px 0;
+}
+
+.about h1 p {
+    margin: 0 10px;
+}
+
+.about-content-box button {
+    background-color: white;
+    border: 1px solid black;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
 }
 
 /*** About Bottom Section ****/
