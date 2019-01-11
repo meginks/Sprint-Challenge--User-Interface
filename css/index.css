@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-/** styles that affect more than one section **/ 
+/************* UNIVERSAL STYLES **************/ 
 
 .container {
     width: 800px;
@@ -79,9 +79,32 @@ header {
 }
 header nav {
 
+} 
+
+/** footer **/
+
+footer {
+    width: 100%;
+    background: black;
 }
 
-/** .top-content **/
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+} 
+
+/*************** HOME PAGE ****************************/ 
+
+/** Home Top Content **/
 
 .top-content {
     display: flex;
@@ -101,7 +124,7 @@ header nav {
     padding-bottom: 20px;  
 }
 
-/** middle content **/ 
+/** Home Middle Content **/ 
 
 .middle-content {
     margin-bottom: 20px;
@@ -170,7 +193,7 @@ header nav {
     background-color: dodgerblue;  
 }
 
-/** Bottom Content **/
+/** Home Bottom Content **/
 
 .bottom-content {
     display: flex;
@@ -186,23 +209,37 @@ header nav {
     padding-right: 0;
 }
 
-/** footer **/
+/**********************ABOUT PAGE ******************************/
 
-footer {
-    width: 100%;
-    background: black;
+.about-page {
+
 }
 
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+/*** About Top Section ****/
+
+.about-top-section {
+
 }
 
-footer nav a {
-    color: white;
-    text-decoration: none;
-} 
+.about-top-text {
+
+}
+
+/*** About Middle Section ****/
+.about-middle-section {
+
+}
+.about-content-box {
+
+}
+
+/*** About Bottom Section ****/
+
+.about-bottom-section {
+
+}
+
+.about-bottom-text {
+
+}
+
