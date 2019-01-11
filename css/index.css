@@ -143,7 +143,7 @@ footer nav a {
 } 
 
 .top-image {
-    /** add jumbo.png size of div here **/
+    margin: 20px 0;
 }
 
 .top-content .text-container {
@@ -240,12 +240,14 @@ footer nav a {
 /**********************ABOUT PAGE ******************************/
 
 .about-page {
-
+height: auto;
 }
 
 /*** About Top Section ****/
+.about-top-image div {
+    width: 100%;
+}
 .about-top-image {
-    /** add jumbo-about.png as background image size of div here **/
 }
 .about-top-section {
 
