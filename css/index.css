@@ -65,11 +65,74 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/************* UNIVERSAL STYLES **************/ 
 
 .container {
     width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
+
+
+/** header **/
+header {
+display: flex;
+align-items: space-evenly;
+justify-content: center;
+height: auto;
+}
+.header-img {
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+header img {
+    height: 50px;
+    width: auto;
+}
+header nav {
+display: flex;
+width: 60%;
+padding: 20px 0;
+margin: 0 auto;
+font-size: 18px;
+align-items: space-evenly;
+justify-content: flex-end;
+} 
+
+header nav a {
+    text-decoration: none;
+    padding: 2%;
+    font-color: black;
+}
+
+
+/** footer **/
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+} 
+
+/*************** HOME PAGE ****************************/ 
+
+/** Home Top Content **/
 
 .top-content {
     display: flex;
@@ -77,6 +140,10 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+} 
+
+.top-image {
+    margin: 20px 0;
 }
 
 .top-content .text-container {
@@ -84,6 +151,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/** Home Middle Content **/ 
 
 .middle-content {
     margin-bottom: 20px;
@@ -110,7 +179,49 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+} 
+
+#box1 {
+    background-color: teal;
 }
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;  
+}
+
+/** Home Bottom Content **/
 
 .bottom-content {
     display: flex;
@@ -126,21 +237,75 @@ p {
     padding-right: 0;
 }
 
-footer {
+/**********************ABOUT PAGE ******************************/
+
+.about-page {
+height: auto;
+}
+
+/*** About Top Section ****/
+.about-top-image div {
     width: 100%;
-    background: black;
+}
+.about-top-image {
+    width: 100%;
+}
+.about-top-section {
+    padding: 20px;
+    border-bottom: 1px solid black;
 }
 
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+.about-top-text {
+    padding: 0 20px;
 }
 
-footer nav a {
-    color: white;
+
+/*** About Middle Section ****/
+.about-middle-section {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+}
+.about-content-box {
+display: flex;
+flex-direction: column;
+width: 40%;
+align-items: space-evenly;
+margin: 20px;
+border-bottom: 1px dotted black;
+}
+
+.about-content-box img {
+    height: 200px;
+    width: auto;
+    margin: 20px 0;
+}
+
+.about h1 p {
+    margin: 0 10px;
+}
+
+.about-content-box a {
+    background-color: white;
+    border: 1px solid black;
     text-decoration: none;
+    padding: 10px;
+    font-color: black;
+    width: fit-content;
+    margin: 20px;
+}
+
+.about-content-box a:link {
+    color: black;
+}
+
+.about-content-box a:visited {
+    color: blue;
+}
+
+/*** About Bottom Section ****/
+
+.about-bottom-text {
+margin: 20px;
 }
